@@ -74,9 +74,10 @@ a {
 }
 
 a:hover, a:focus {
-  color: #D10024;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
   outline: none;
+
 }
 
 ul, ol {
@@ -292,6 +293,7 @@ textarea.input {
 
 .section {
   padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 .section-title {
@@ -302,7 +304,6 @@ textarea.input {
 
 .section-title .title {
   display: inline-block;
-  text-transform: uppercase;
   margin: 0px;
 }
 
@@ -339,7 +340,7 @@ textarea.input {
 }
 
 .section-tab-nav li.active a {
-  color: #D10024;
+  color: black;
 }
 
 .section-tab-nav li a:hover:after, .section-tab-nav li a:focus:after, .section-tab-nav li.active a:after {
@@ -722,7 +723,7 @@ textarea.input {
   margin: 15px 0px;
 }
 
-.shop:before {
+/*.shop:before {
   content: "";
   position: absolute;
   top: 0;
@@ -734,9 +735,9 @@ textarea.input {
   -webkit-transform: skewX(-45deg);
   -ms-transform: skewX(-45deg);
   transform: skewX(-45deg);
-}
+}*/
 
-.shop:after {
+/*.shop:after {
   content: "";
   position: absolute;
   top: 0;
@@ -748,7 +749,7 @@ textarea.input {
   -webkit-transform: skewX(-45deg) translateX(-100%);
   -ms-transform: skewX(-45deg) translateX(-100%);
   transform: skewX(-45deg) translateX(-100%);
-}
+}*/
 
 .shop .shop-img {
   position: relative;
@@ -906,7 +907,6 @@ textarea.input {
 .product .product-body {
   position: relative;
   padding: 15px;
-  background-color:rgb(117, 177, 236);
   text-align: center;
   z-index: 20;
 }
@@ -935,13 +935,14 @@ textarea.input {
 
 .product .product-body .product-price {
   color: #8D99AE;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .product .product-body .product-price .product-old-price {
-  font-size: 70%;
+  font-size: 14px;
   font-weight: 400;
   color: #8D99AE;
+  margin-right: 10px;
 }
 
 .product .product-body .product-rating {
@@ -2010,23 +2011,21 @@ textarea.input {
 ===========================================================*/
 
 #footer {
-  background: #15161D;
   color: #B9BABC;
 }
 
 #bottom-footer {
-  background: #1E1F29;
 }
 
 .footer {
   margin: 30px 0px;
 }
 
-.footer .footer-title {
-  color: #FFF;
-  text-transform: uppercase;
-  font-size: 18px;
-  margin: 0px 0px 30px;
+.footer .footer-title .title {
+  color: #767676;
+  font-size: 17px;
+  margin: 0px 0px 20px;
+  font-weight: bold;
 }
 
 .footer-links li+li {
@@ -2034,24 +2033,25 @@ textarea.input {
 }
 
 .footer-links li a {
-  color: #B9BABC;
+  color: #767676;
 }
 
 .footer-links li i {
   margin-right: 15px;
-  color: #D10024;
+  color:#767676;
   width: 14px;
   text-align: center;
 }
 
 .footer-links li a:hover {
-  color: #D10024;
+  color:#767676;
 }
 
 .copyright {
   margin-top: 30px;
   display: block;
   font-size: 12px;
+  color: black;
 }
 
 .footer-payments li {
