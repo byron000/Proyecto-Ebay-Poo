@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -10,9 +11,10 @@
 		<link rel="stylesheet" href="css/custom.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 		<title></title>
- 		<!-- Google font -->
- 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
- 		<!-- Bootstrap -->
+	  
+ 	  <!-- Google font -->
+ 	  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+ 	  <!-- Bootstrap -->
  		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
  		<!-- Slick -->
  		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
@@ -38,99 +40,9 @@
 	</style>	
 	</head>
 	<body style="background-color: #F5F5F5;">
-		<!-- HEADER -->
-		<header >
-			<!-- TOP HEADER -->
-			<div  class="encabezado" id="top-header" >
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="col-6">
-					<ul class="header-links pull-left">
-							<li>
-									<span>¡Hola!  <a href="#" style="color:#4E86CE"> Inicia sesion</a>
-									&nbsp;
-										<span>
-											o <a id="registro" href="#" style="color: #4E86CE"> Registrate </a>
-										</span>
-									</span>
-							</li>
-						<li><a id="ofertas" href="#"> |  ebay Ofertas</a></li>
-						<li><a id="vender" href="#"> |  Vender</a></li>
-						<li><a id="ayuda" href="#"> |  Ayuda y contacto</a></li>
-					</ul></div>
-					<div class="col-6">
-					<ul class="header-links pull-right" style="justify-content: flex-end">
-						<li><a id="idioma" href="#"><i class="fa fa-globe"></i> Español</a>
-						</li>
-						<li><a  href="#"><i class="fa fa-user-o"></i> Mi eBay</a>
-						</li>
-						<li><a id="notificacion" href="#"><i class="fas fa-bell"></i></a></li>
-						<li><div class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-								<i class="fa fa-shopping-cart"></i>
-								<span></span>
-								<div class="qty"></div>
-							</a>	</div></li>
-					</ul>
-				</div>
-				</div>
-				</div>
-				</div>
-			</div>
-			<!-- /TOP HEADER -->
-
-			<!-- MAIN HEADER -->
-			<div id="header" style="background-color: #F5F5F5;">
-					<!-- container -->
-					<div class="container" style="margin-right: 50px; margin-left: 50px;">
-						<!-- row -->
-						<div class="row">
-							<!-- LOGO -->
-							<div  class="col-md-3 col-xs-3" style="padding: 0px;
-							width: 230px;">
-								<div class="header-logo">
-									<a href="#" class="logo">
-											<img id="logo" src="img/EBay_logo.png" alt="">
-									</a>
-									</div>
-									<button id="btn-comprar" type="button" aria-expanded="false">
-									<span>Comprar por categoria</span>
-									<i class="fas fa-angle-down"></i>	
-									</button>
-							</div>
-							<!-- /LOGO -->
-	
-							<!-- SEARCH BAR -->
-							<div class="col-md-9 col-xs-9">
-								<div class="header-search" style="float: left">
-									<form id="form-categoria">
-										<input id="input-buscar" class="input" placeholder="Buscar articulos">
-										<select id="select-categoria" class="input-select">
-											<option value="0">Todas las categorias</option>
-											<option value="1">Categoria 01</option>
-											<option value="2">Categoria 02</option>
-											<option value="3">Categoria 03</option>
-											<option value="4">Categoria 04</option>
-											<option value="5">Categoria 05</option>
-										</select>
-										<button id="btn-buscar" class="search-btn">Buscar</button>
-										<div class="col-md-3 clearfix" style="float: right; width: auto;">
-											<div class="header-ctn">
-												<!-- Menu Toogle -->
-												<a href="#" id="busqueda-avanzada" style="font-size: 10px">Busqueda avanzada</a>
-											</div>
-										</div>
-										<!----a title="Busqueda avanzada" href="#"></a-->
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		</header>
-		<!-- /HEADER -->
-
+	<?php
+	include("encabezado.php");
+	?>
 		<!-- BREADCRUMB -->
 		<div id="breadcrumb" class="section" style="background-color: #F5F5F5;">
 			<!-- container -->
@@ -165,75 +77,528 @@
 								<ul id="lista-categoria">
 									<li>
 									<div class="input-checkbox">
-										<button type="button">
+										<button type="button" id="btn-mostrar" onclick="mostrar()" ondblclick="ocultar()">
 											<span>3D impresoras y suministros</span>
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
 									</div>
+									<ul id="lista-ul" style="display: none">
+										<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+										</div>
 								</li>
 								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Impresoras 3D </span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Los escaneres 3D </span></a>
+						</div>
+				</li>
+								</ul>
+									</li>
+								<li>
 										<div class="input-checkbox" >
-											<button type="button">
+											<button type="button" onclick="mostrar2()" ondblclick="ocultar2()">
 												<span>Cables y conectores de Computadora</span>
 												<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 											</button>
 										</div>
+										<ul id="lista-ul-2" style="display: none">
+											<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Ver todo en Cables y conectores de Computadora</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Cables Y Adaptadores de audio de Ordenador</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Probadores de Cables de Computadora</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Ataduras De Cables de computadora y organizadores de Joyas </span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Herramientas para cables de Computadora </span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Cables Y Adaptadores para Unidad de computadora</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Cables y conectores de alimentación del equipo</span></a>
+					</div>
+			</li>
+			<li>
+				<div class="input-checkbox">
+					<a href="#"><span>Cables Y Adaptadores para Firewire</span></a>
+				</div>
+		</li>
+		<li>
+			<div class="input-checkbox">
+				<a href="#"><span>Los cables KVM</span></a>
+			</div>
+	</li>
+	<li>
+		<div class="input-checkbox">
+			<a href="#"><span>Los cables KVM</span></a>
+		</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Cables Y Adaptadores Monitor/AV</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Cables Y Adaptadores de red</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Otros cables y conectores de Computadora</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Paralelo, serie y PS/2 Cables y Adaptadores</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Cables USB, hubs y adaptadores</span></a>
+	</div>
+</li>
+									</ul>
 									</li>
 									<li>
 											<div class="input-checkbox">
-												<button type="button">
+												<button type="button" onclick="mostrar3()" ondblclick="ocultar3()">
 													<span>Piezas y componentes de Computadora</span>
 													<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 												</button>
 											</div>
+											<ul id="lista-ul-3" style="display: none">
+												<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Ver todo en Piezas y componentes de Computadora</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Fundas y Accesorios</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Los ventiladores de la computadora, equipo de refrigeración y disipadores de calor</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Tarjetas gráficas de Computadora</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Computer Memory (RAM)</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Combos de CPU y tarjetas madre para computadora</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Placas Base de Ordenador</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Fuentes de alimentación del equipo</span></a>
+					</div>
+			</li>
+			<li>
+				<div class="input-checkbox">
+					<a href="#"><span>Probadores de suministro de energía de Computadora</span></a>
+				</div>
+		</li>
+		<li>
+			<div class="input-checkbox">
+				<a href="#"><span>Los procesadores de computadora (CPU)</span></a>
+			</div>
+	</li>
+	<li>
+		<div class="input-checkbox">
+			<a href="#"><span>Tarjetas de interfaz y Add-On</span></a>
+		</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Tarjetas de sonido interno</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Piezas de repuesto para Laptop</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Accesorios y componentes de la placa base</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Otras piezas y componentes de Computadora</span></a>
+	</div>
+</li>
+<li>
+	<div class="input-checkbox">
+		<a href="#"><span>Captura de video y sintonizadores de TV</span></a>
+	</div>
+</li>
+										</ul>
 										</li>
 										<li>
 												<div class="input-checkbox">
-													<button type="button">
+													<button type="button" onclick="mostrar4()" ondblclick="ocultar4()">
 														<span>Unidades de disco, almacenamiento y Discos en Blanco</span>
 														<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 													</button>
 												</div>
+												<ul id="lista-ul-4" style="display: none">
+													<li>
+													<div class="input-checkbox">
+														<a href="#"><span>Ver todo en Unidades de disco, almacenamiento y Discos en Blanco</span></a>
+													</div>
+											</li>
+											<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Accesorios y Discos en Blanco</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>CD, DVD y Blu-ray</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>CD, DVD y Blu-ray Duplicadoras</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Cajas para Compartimiento de Unidad de computadora</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Gabinetes de unidades de computadora y Muelles</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Unidades de disco flexible, Zip y Jaz</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Duplicadores de disco duro</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Discos duros (HDD, SSD y NAS)</span></a>
+					</div>
+			</li>
+			<li>
+				<div class="input-checkbox">
+					<a href="#"><span>Otras unidades, almacenamiento y Discos en Blanco</span></a>
+				</div>
+		</li>
+		<li>
+			<div class="input-checkbox">
+				<a href="#"><span>Cartucho de datos y unidades de cinta</span></a>
+			</div>
+	</li>
+	<li>
+		<div class="input-checkbox">
+			<a href="#"><span>Las unidades flash USB</span></a>
+		</div>
+</li>
+											</ul>
 											</li>
 										<li>
 										<div class="input-checkbox">
-											<button type="button">
+											<button type="button" onclick="mostrar5()" ondblclick="ocultar5()">
 													<span>Teclados, mouse y punteros de Computadora</span>
 														<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 												</button>
 										</div>
+										<ul id="lista-ul'5" style="display: none">
+											<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Ver todo en Teclados, mouse y punteros de Computadora</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Computer Graphics Tablets, tableros y Bolígrafos</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Paquetes de Teclado y Mouse de computadora</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Teclados y teclados táctiles de Computadora</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Mouse, Trackball y paneles táctiles de Computadora</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Controles remotos y punteros de Computadora</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Otros teclados, mouse y punteros de Computadora</span></a>
+					</div>
+			</li>
+									</ul>
 										</li>
 									<li>
 								<div class="input-checkbox">
-										<button type="button">
+										<button type="button" onclick="mostrar6()" ondblclick="ocultar6()">
 											<span>Monitores, proyectores y accesorios de Computadora</span>
 												<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 												</button>
 											</div>
+											<ul id="lista-ul-6" style="display: none">
+												<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Ver todo en Monitores, proyectores y accesorios de Computadora</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Montajes y soportes de monitor de computadora</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Fuentes de alimentación del monitor de la computadora</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Fuentes de alimentación del monitor de la computadora</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Monitores de computadora</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Piezas y accesorios de proyector ordenador</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Proyectores de Computadora</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Otros monitores, proyectores y accesorios de Computadora</span></a>
+					</div>
+			</li>
+										</ul>
 											</li>
 													<li>
 													<div class="input-checkbox">
-													<button type="button">
+													<button type="button" onclick="mostrar7()" ondblclick="ocultar7()">
 											<span>Equipo de protección y distribución de energía de Computadora</span>
 													<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
-											</button>
+											</button> 
 											</div>
+											<ul id="lista-ul-7" style="display: none">
+												<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Ver todo en Equipo de protección y distribución de energía de Computadora</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Unidades de distribución de energía de Computadora</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Inversores de energía para computadora</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Protectores contra sobretensiones ordenador y tomas de alimentación</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Equipo de fuentes de alimentación ininterrumpida (UPS)</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Baterías y componentes de UPS de Computadora</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Otros equipos de protección y distribución de energía de Computadora</span></a>
+						</div>
+				</li>
+										</ul>
 									</li>
 											<li>
 										<div class="input-checkbox">
-											<button type="button">
+											<button type="button" onclick="mostrar8()" ondblclick="ocultar8()">
 													<span>Impresoras, escáneres y suministros de Computadora</span>
 														<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 															</button>
 											</div>
+											<ul id="lista-ul-8" style="display: none">
+												<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Ver todo en Impresoras, escáneres y suministros de Computadora</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Impresoras de Ordenador</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Escáneres de Computadora</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Piezas y accesorios para impresoras y escáner</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Tinta, tóner y papel de impresora</span></a>
+								</div>
+						</li>
+										</ul>
 													</li>
 								<li>
 										<div class="input-checkbox">
-								<button type="button">
+								<button type="button" onclick="mostrar9()" ondblclick="ocultar9()">
 								<span>Software de computadora</span>
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
 													</div>
+													<ul id="lista-ul-9" style="display: none">
+														<li>
+														<div class="input-checkbox">
+															<a href="#"><span>Ver todo en Software de computadora</span></a>
+														</div>
+												</li>
+												<li>
+													<div class="input-checkbox">
+														<a href="#"><span>Software antivirus y seguridad</span></a>
+													</div>
+											</li>
+											<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Driver y software de utilidad</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Educación, lenguaje y software de referencia</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Hobby & Leisure Software</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Software de imagen, video y audio</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Software oficina y Negocios</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Software del sistema operativo</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Otros programas informáticos</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Finanzas personales, impuestos y software Legal</span></a>
+					</div>
+			</li>
+			<li>
+				<div class="input-checkbox">
+					<a href="#"><span>Software de servidor, desarrollo y DBMS</span></a>
+				</div>
+		</li>
+		<li>
+			<div class="input-checkbox">
+				<a href="#"><span>Web y software de edición de escritorio</span></a>
+			</div>
+	</li>
+												</ul>
 											</li>
 																<li>
 										<div class="input-checkbox">
@@ -242,29 +607,181 @@
 												</button>
 										</div>
 											</li>
+
 											<li>
 											<div class="input-checkbox">
-												<button type="button">
+												<button type="button" onclick="mostrar10()" ondblclick="ocultar10()">
 													<span>Computadoras, tablets y redes Lotes al Por Mayor</span>
 													<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 													</button>
 														</div>
+														<ul id="lista-ul-10" style="display: none">
+															<li>
+															<div class="input-checkbox">
+																<a href="#"><span>Ver todo en Computadoras, tablets y redes Lotes al Por Mayor</span></a>
+															</div>
+													</li>
+													<li>
+														<div class="input-checkbox">
+															<a href="#"><span>Otros en computadoras, tablets y redes Lotes al Por Mayor</span></a>
+														</div>
+												</li>
+												<li>
+													<div class="input-checkbox">
+														<a href="#"><span>Accesorios de computadora al por mayor</span></a>
+													</div>
+											</li>
+											<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Piezas y componentes de computadora al por mayor</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Venta al por mayor unidades de disco, almacenamiento y Discos en Blanco</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Monitores y proyectores de computadora al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Red y conectividad de computadora al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Suministros para impresoras y accesorios de computadora al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Impresoras y escáneres de computadora al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Software de computadora al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Computadoras al por mayor</span></a>
+											</div>
+									</li>
+									<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Laptops y tablets al por mayor</span></a>
+											</div>
+									</li>
+													</ul>
 														</li>
 														<li>
 														<div class="input-checkbox">
-													<button type="button">
+													<button type="button" onclick="mostrar11()" ondblclick="ocultar11()">
 											<span>Computadoras de escritorio y computadoras Todo en Uno</span>
 												<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 														</button>
 														</div>
+														<ul id="lista-ul-11" style="display: none">
+															<li>
+															<div class="input-checkbox">
+																<a href="#"><span>Ver todo en Computadoras de escritorio y computadoras Todo en Uno</span></a>
+															</div>
+													</li>
+													<li>
+														<div class="input-checkbox">
+															<a href="#"><span>Computadoras Apple y ordenadores Todo en Uno</span></a>
+														</div>
+												</li>
+												<li>
+													<div class="input-checkbox">
+														<a href="#"><span>PC de escritorio y computadoras Todo en Uno</span></a>
+													</div>
+											</li>
+													</ul>
 														</li>	
 															<li>
 															<div class="input-checkbox">
-														<button type="button">
+														<button type="button" onclick="mostrar12()" ondblclick="ocultar12()">
 													<span>Redes y servidores empresariales</span>
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 												</button>
 								</div>
+								<ul id="lista-ul-12" style="display: none">
+									<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Ver todo en Redes y servidores empresariales</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>CSU/dsu empresariales</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Antenas direccionales empresariales</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Firewall y dispositivos VPN empresariales</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Equilibradores de carga empresariales</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Componentes de Servidor de red empresarial</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Servidores, clientes y terminales de red empresarial</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Arreglos de discos de almacenamiento de red empresarial</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Conmutadores y hubs de red empresarial</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Componentes de routers empresariales</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Routers empresariales</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Otras redes y servidores empresariales</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Bastidores de servidor, chasis y paneles de conexión</span></a>
+					</div>
+			</li>
+			<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Teléfonos de negocios VoIP y PBX IP</span></a>
+					</div>
+			</li>
+							</ul>
 									</li>	
 											<li>
 										<div class="input-checkbox">
@@ -273,6 +790,33 @@
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
 										</div>
+										<ul id="lista-ul" style="display: none">
+											<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Impresoras 3D </span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Los escaneres 3D </span></a>
+							</div>
+					</li>
+									</ul>
 										</li>	
 								<li>
 									<div class="input-checkbox">
@@ -281,6 +825,33 @@
 								<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
 									</div>
+									<ul id="lista-ul" style="display: none">
+										<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Impresoras 3D </span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Los escaneres 3D </span></a>
+						</div>
+				</li>
+								</ul>
 									</li>
 						<li>
 					<div class="input-checkbox">
@@ -289,6 +860,33 @@
 							<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 									</button>
 											</div>
+											<ul id="lista-ul" style="display: none">
+												<li>
+												<div class="input-checkbox">
+													<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+												</div>
+										</li>
+										<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Impresoras 3D </span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Los escaneres 3D </span></a>
+								</div>
+						</li>
+										</ul>
 										</li>	
 					<li>
 							<div class="input-checkbox">
@@ -296,6 +894,33 @@
 							<span>Otros ordenadores, tablets y equipos de red, piezas y accesorios</span>
 					</button>
 								</div>
+								<ul id="lista-ul" style="display: none">
+									<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Impresoras 3D </span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Los escaneres 3D </span></a>
+					</div>
+			</li>
+							</ul>
 										</li>
 					<li>
 								<div class="input-checkbox">
@@ -304,6 +929,33 @@
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 												</button>
 										</div>
+										<ul id="lista-ul" style="display: none">
+											<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Impresoras 3D </span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Los escaneres 3D </span></a>
+							</div>
+					</li>
+									</ul>
 										</li>	
 										<li>
 												<div class="input-checkbox">
@@ -311,6 +963,33 @@
 														<span>Lector de libros electrónicos y tablet piezas</span>
 										</button>
 										</div>
+										<ul id="lista-ul" style="display: none">
+											<li>
+											<div class="input-checkbox">
+												<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+											</div>
+									</li>
+									<li>
+										<div class="input-checkbox">
+											<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+										</div>
+								</li>
+								<li>
+									<div class="input-checkbox">
+										<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+									</div>
+							</li>
+							<li>
+								<div class="input-checkbox">
+									<a href="#"><span>Impresoras 3D </span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Los escaneres 3D </span></a>
+							</div>
+					</li>
+									</ul>
 									</li>	
 									<li>
 											<div class="input-checkbox">
@@ -318,15 +997,34 @@
 									<span>Tabletas y lectores electrónicos</span>
 								</button>
 							</div>
-						</li>	
-						<li>
+							<ul id="lista-ul" style="display: none">
+								<li>
 								<div class="input-checkbox">
-									<button type="button">
-										<span>Ordenadores antiguos, piezas y accesorios</span>
-											<i class="fas fa-angle-down" style="color: 0654BA; float: right"></i>
-										</button>
-									</div>
-								</li>
+									<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
+								</div>
+						</li>
+						<li>
+							<div class="input-checkbox">
+								<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
+							</div>
+					</li>
+					<li>
+						<div class="input-checkbox">
+							<a href="#"><span>Insumos y filamento impresora 3D</span></a>
+						</div>
+				</li>
+				<li>
+					<div class="input-checkbox">
+						<a href="#"><span>Impresoras 3D </span></a>
+					</div>
+			</li>
+			<li>
+				<div class="input-checkbox">
+					<a href="#"><span>Los escaneres 3D </span></a>
+				</div>
+		</li>
+						</ul>
+						</li>	
 								<li>
 										<div class="input-checkbox">
 											<button type="button">
@@ -518,9 +1216,9 @@
 			<use xlink:href="#svg-icon-chevron-light-left"></use></svg-->
 			<span class="clipped">Ir a la diapositiva anterior - Ofertas por tiempo limitado</span></button>
 	<div class="x-carousel__body no-scroll" id="w5-xCarousel-x-carousel-items">
-		<ul>
+		<ul class="">
 			<li aria-hidden="false">
-					<a class="b-tile" href="Articulo-1.html" _sp="p2489527.m4329.l8656">
+					<a class="b-tile" href="Articulo-1.php" _sp="p2489527.m4329.l8656">
 				<div class="b-tile__imgwrap">
 					<div class="b-tile__img">
 			<img alt="Nuevo Samsung Galaxy Tab e Lite 7&quot; Quad Core 8GB Rom Wifi Bt Tablet Android Blanco" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/EakAAOSwIApcPRYp/s-l225.webp" width="960" height="1500">
@@ -537,7 +1235,7 @@
 		</div>
 		</a></li>
 				<li aria-hidden="false">
-			<a class="b-tile" href="#" _sp="p2489527.m4329.l8656">
+			<a class="b-tile" href="Articulo-2.php" _sp="p2489527.m4329.l8656">
 			<div class="b-tile__imgwrap">
 			<div class="b-tile__img">
 						<img alt="Nuevo Microsoft Surface ir con Cubierta Paquete Intel Pentium 128GB SSD Win 10" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/ErwAAOSwgb1cHQUj/s-l225.webp" width="1600" height="1084"></div></div>
@@ -550,26 +1248,26 @@
 			<span class="strikethrough">L 29&nbsp;405.75</span></span> | <strong class="bold">64 % DE DESCUENTO</strong></div>
 			</div></a></li>
 	<li aria-hidden="false">
-	<a class="b-tile" href="#"  _sp="p2489527.m4329.l8656">
+	<a class="b-tile" href="Articulo-3.php"  _sp="p2489527.m4329.l8656">
 	<div class="b-tile__imgwrap">
 		<div class="b-tile__img">
-			<img alt="Nuevo HP 11.6&quot; Intel Dual-Core 2.6GHz 4GB 32GB Windows 10 streambook con Office 365" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/tbUAAOSwkWNZoFWi/s-l225.webp" width="1600" height="1301"></div>
+		<img alt="Rosewill THOR V2-W Blanco Edition para juegos ATX caja de la computadora Torre Completa Blanco LED" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/tbUAAOSwkWNZoFWi/s-l225.webp" width="500" height="500"></div>
 			</div>
 		<div class="b-info" style="width: inherit;">
-	<div class="b-info__title ">Nuevo HP 11.6" Intel Dual-Core 2.6GHz 4GB 32GB Windows 10 streambook con Office 365</div><div class="b-info__price clearfix"><span class="default">L 3&nbsp;896.29</span></div><div class="b-info__trenddeals-price">
+	<div class="b-info__title ">Rosewill THOR V2-W Blanco Edition para juegos ATX caja de la computadora Torre Completa Blanco LED</div><div class="b-info__price clearfix"><span class="default">L 3&nbsp;896.29</span></div><div class="b-info__trenddeals-price">
 		<span role="text">
 				<span class="clipped">costaba</span>
 	<span class="strikethrough">L 8&nbsp;576.50</span></span> | <strong class="bold">54 % DE DESCUENTO</strong></div>
 			</div>
 					</a></li>
 			<li aria-hidden="false">
-			<a class="b-tile" href="#" _sp="p2489527.m4329.l8656">
+			<a class="b-tile" href="Articulo-4.php" _sp="p2489527.m4329.l8656">
 		<div class="b-tile__imgwrap">
 					<div class="b-tile__img">
-				<img alt="Rosewill THOR V2-W Blanco Edition para juegos ATX caja de la computadora Torre Completa Blanco LED" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/E-IAAOSwEupZgkk-/s-l225.webp" width="500" height="500"></div>
-		</div>
+					<img alt="Rosewill RGB Gaming Keyboard, Con Cable, membrana mecánica, Blanco, Neón K51W" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/E-IAAOSwEupZgkk-/s-l225.webp" width="1600" height="1200"></div>
+</div>
 		<div class="b-info" style="width: inherit;">
-		<div class="b-info__title ">Rosewill THOR V2-W Blanco Edition para juegos ATX caja de la computadora Torre Completa Blanco LED</div>
+		<div class="b-info__title ">Rosewill RGB Gaming Keyboard, Con Cable, membrana mecánica, Blanco, Neón K51W</div>
 		<div class="b-info__price clearfix">
 		<span class="default">L 2&nbsp;450.25</span></div>
 		<div class="b-info__trenddeals-price">
@@ -594,22 +1292,6 @@
 				</div>
 			</div>
 		</a>
-		</li>
-		<li aria-hidden="true">
-	<a class="b-tile" href="#" _sp="p2489527.m4329.l8656" tabindex="-1">
-		<div class="b-tile__imgwrap">
-			<div class="b-tile__img">
-	<img alt="Mouse Y Teclado Logitech Inalámbrico MK270 Combo estándar 920-004536" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/roIAAOSwQmhbeteS/s-l225.webp" width="1500" height="799"></div>
-	</div>
-	<div class="b-info" style="width: inherit;">
-	<div class="b-info__title ">Mouse Y Teclado Logitech Inalámbrico MK270 Combo estándar 920-004536</div>
-		<div class="b-info__price clearfix">
-					<span class="default">L 465.35</span></div>
-			<div class="b-info__trenddeals-price">
-			<span role="text"><span class="clipped">costaba</span>
-		<span class="strikethrough">L 1&nbsp;225.00</span></span> | <strong class="bold">62 % DE DESCUENTO</strong>
-	</div></div>
-			</a>
 		</li>
 			<li aria-hidden="true">
 				<a class="b-tile" href="#" _sp="p2489527.m4329.l8656" tabindex="-1">
@@ -728,7 +1410,7 @@
 								</li>
 							</ul>
 						</div>
-						<button style="margin-top: -13px" class="x-carousel__next-btn" aria-describedby="w6-xCarousel-x-carousel-status" aria-disabled="false" id="w6-xCarousel-next" data-w-onclick="handleNext|w6-xCarousel">
+						<button style="margin-top: -13px" class="x-carousel__next-btn" aria-describedby="w6-xCarousel-x-carousel-status" aria-disabled="false" id="xCarousel-next" data-w-onclick="handleNext|w6-xCarousel">
 							<span class="clipped">Ir a la diapositiva siguiente - Buscar por Categoría</span>
 							<i class="fas fa-angle-right"><use xlink:href="#svg-icon-chevron-light-right"></use></i>
 							</svg>
@@ -840,75 +1522,11 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
-		<!-- FOOTER -->
-		<footer id="footer" style="text-align: left">
-			<!-- top footer -->
-			<div class="section">
-				<!-- container -->
-				<div class="container">
-					<!-- row -->
-					<div class="row">
-						<div class="col-md-3 col-xs-6">
-							<div class="footer" style="width: max-content">
-								<table class="table-f">
-									<tbody>
-										<tr>
-											<td colspan="2">
-												<ul id="gf-1" class="gh-1" style="float: right">
-													<li class="gf-li">
-															<a href="https://www.ebayinc.com" _exsp="m571.l2602" class="thrd gf-bar-a">Acerca de eBay</a>
-													</li>
-													<li class="gf-li" >
-														<a href="http://announcements.ebay.com" _exsp="m571.l2935" class="thrd gf-bar-a">Avisos</a>
-													</li>
-													<li class="gf-li" >
-														<a href="http://community.ebay.com" _exsp="m571.l1540" class="thrd gf-bar-a">Comunidad</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/securitycenter/index.html" _exsp="m571.l2616" class="thrd gf-bar-a">Centro de seguridad</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://resolutioncenter.ebay.com/" _sp="m571.l1619" class="thrd gf-bar-a">Centro de resoluciones</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/co/es-co/help/policies/overview.html" _exsp="m571.l2604" class="thrd gf-bar-a">Políticas</a>
-													</li>
-													<li class="gf-li">
-															<li class="gf-li">
-																<a href="https://pages.ebay.com/co/es-co/help/buy/language.html" _exsp="m571.l3273" class="thrd gf-bar-a">Traducciones</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://ocsnext.ebay.com/ocs/home" _sp="m571.l1545" class="thrd gf-bar-a">Ayuda y contacto</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/sitemap.html" _exsp="m571.l2909" class="thrd gf-bar-a">Mapa del Sitio</a>
-													</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td class="gf-legal">Copyright © 1995-2019 eBay Inc. Todos los derechos reservados. 
-												<a href="https://pages.ebay.com/co/es-co/help/policies/user-agreement.html">Condiciones de uso</a>, 
-												<a href="https://pages.ebay.com/co/es-co/help/policies/privacy-policy.html">Aviso de privacidad</a>, 
-												<a href="https://pages.ebay.com/co/es-co/help/account/cookies-web-beacons.html">cookies</a> y 
-												<a href="https://cgi6.ebay.com/ws/eBayISAPI.dll?AdChoiceLandingPage&amp;partner=0" id="gf-AdChoice">AdChoice</a></td>
-											<td></td>
-											<td >
-												<a title="Verificar el certificado SSL del sitio" _exsp="m571.l3943" href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&amp;dn=www.ebay.com&amp;lang=en" onclick="this.href='https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&amp;dn=#D#&amp;lang=en'.replace(/#D#/,location.host);return true" rel="noreferrer">
-													<i id="gf-norton">Norton Secured</i></a></td>
-										</tr>
-									</tbody>
-								</table>
-					</div>
-					<!-- /row -->
-				</div>
-				<!-- /container -->
-			</div>
-			<!-- /top footer -->
-		</footer>
-		<!-- /FOOTER -->
-
+		<?php
+		include("pie-de-pagina.php");
+		?>
 		<!-- jQuery Plugins -->
+		<script src="js/controlador.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/slick.min.js"></script>

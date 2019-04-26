@@ -38,98 +38,9 @@
 	</style>	
 	</head>
 	<body style="background-color: #F5F5F5;">
-		<!-- HEADER -->
-		<header >
-			<!-- TOP HEADER -->
-			<div  class="encabezado" id="top-header" >
-				<div class="container">
-					<div class="row">
-						<div class="col-12">
-							<div class="col-6">
-					<ul class="header-links pull-left">
-							<li>
-									<span>¡Hola!  <a href="#" style="color:#4E86CE"> Inicia sesion</a>
-									&nbsp;
-										<span>
-											o <a id="registro" href="#" style="color: #4E86CE"> Registrate </a>
-										</span>
-									</span>
-							</li>
-						<li><a id="ofertas" href="#"> |  ebay Ofertas</a></li>
-						<li><a id="vender" href="#"> |  Vender</a></li>
-						<li><a id="ayuda" href="#"> |  Ayuda y contacto</a></li>
-					</ul></div>
-					<div class="col-6">
-					<ul class="header-links pull-right" style="justify-content: flex-end">
-						<li><a id="idioma" href="#"><i class="fa fa-globe"></i> Español</a>
-						</li>
-						<li><a  href="#"><i class="fa fa-user-o"></i> Mi eBay</a>
-						</li>
-						<li><a id="notificacion" href="#"><i class="fas fa-bell"></i></a></li>
-						<li><div class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-								<i class="fa fa-shopping-cart"></i>
-								<span></span>
-								<div class="qty"></div>
-							</a>	</div></li>
-					</ul>
-				</div>
-				</div>
-				</div>
-				</div>
-			</div>
-			<!-- /TOP HEADER -->
-
-			<!-- MAIN HEADER -->
-			<div id="header" style="background-color: #F5F5F5;">
-					<!-- container -->
-					<div class="container" style="margin-right: 50px; margin-left: 50px;">
-						<!-- row -->
-						<div class="row">
-							<!-- LOGO -->
-							<div  class="col-md-3 col-xs-3" style="padding: 0px;
-							width: 230px;">
-								<div class="header-logo">
-									<a href="#" class="logo">
-											<img id="logo" src="img/EBay_logo.png" alt="">
-									</a>
-									</div>
-									<button id="btn-comprar" type="button" aria-expanded="false">
-									<span>Comprar por categoria</span>
-									<i class="fas fa-angle-down"></i>	
-									</button>
-							</div>
-							<!-- /LOGO -->
-	
-							<!-- SEARCH BAR -->
-							<div class="col-md-9 col-xs-9">
-								<div class="header-search" style="float: left">
-									<form id="form-categoria">
-										<input id="input-buscar" class="input" placeholder="Buscar articulos">
-										<select id="select-categoria" class="input-select">
-											<option value="0">Todas las categorias</option>
-											<option value="1">Categoria 01</option>
-											<option value="2">Categoria 02</option>
-											<option value="3">Categoria 03</option>
-											<option value="4">Categoria 04</option>
-											<option value="5">Categoria 05</option>
-										</select>
-										<button id="btn-buscar" class="search-btn">Buscar</button>
-										<div class="col-md-3 clearfix" style="float: right; width: auto;">
-											<div class="header-ctn">
-												<!-- Menu Toogle -->
-												<a href="#" id="busqueda-avanzada" style="font-size: 10px">Busqueda avanzada</a>
-											</div>
-										</div>
-										<!----a title="Busqueda avanzada" href="#"></a-->
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		</header>
-		<!-- /HEADER -->
+	<?php
+	include("encabezado.php");
+	?>
 		<!-- SECTION -->
 		<div class="section">
 			<!-- container -->
@@ -577,7 +488,7 @@
 											<!-- sea changes -->
 							<div class="sh-grn-top"></div>
 							<div style="float:left">
-									Entrega prevista el o antes del <strong class="vi-acc-del-range"><b>vie. 15 mar. </b></strong> al código postal defau<span class="sh-bubble" style="padding-left: 5px;">
+									Entrega prevista el o antes del <strong class="vi-acc-del-range"><b>vie. 15 mar. </b></strong><span class="sh-bubble" style="padding-left: 5px;">
 										<a id="hldhlp" class="sh-qmark" href="javascript:;">&nbsp;<b class="g-hdn">icono de ayuda para Fecha de entrega prevista (se abre una ventana)</b></a>
 									</span>
 								</div>	
@@ -653,74 +564,9 @@
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
-		<!-- FOOTER -->
-		<footer id="footer" style="text-align: left">
-			<!-- top footer -->
-			<div class="section">
-				<!-- container -->
-				<div class="container">
-					<!-- row -->
-					<div class="row">
-						<div class="col-md-3 col-xs-6">
-							<div class="footer" style="width: max-content">
-								<table class="table-f">
-									<tbody>
-										<tr>
-											<td colspan="2">
-												<ul id="gf-1" class="gh-1" style="float: right">
-													<li class="gf-li">
-															<a href="https://www.ebayinc.com" _exsp="m571.l2602" class="thrd gf-bar-a">Acerca de eBay</a>
-													</li>
-													<li class="gf-li" >
-														<a href="http://announcements.ebay.com" _exsp="m571.l2935" class="thrd gf-bar-a">Avisos</a>
-													</li>
-													<li class="gf-li" >
-														<a href="http://community.ebay.com" _exsp="m571.l1540" class="thrd gf-bar-a">Comunidad</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/securitycenter/index.html" _exsp="m571.l2616" class="thrd gf-bar-a">Centro de seguridad</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://resolutioncenter.ebay.com/" _sp="m571.l1619" class="thrd gf-bar-a">Centro de resoluciones</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/co/es-co/help/policies/overview.html" _exsp="m571.l2604" class="thrd gf-bar-a">Políticas</a>
-													</li>
-													<li class="gf-li">
-															<li class="gf-li">
-																<a href="https://pages.ebay.com/co/es-co/help/buy/language.html" _exsp="m571.l3273" class="thrd gf-bar-a">Traducciones</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://ocsnext.ebay.com/ocs/home" _sp="m571.l1545" class="thrd gf-bar-a">Ayuda y contacto</a>
-													</li>
-													<li class="gf-li">
-														<a href="https://pages.ebay.com/sitemap.html" _exsp="m571.l2909" class="thrd gf-bar-a">Mapa del Sitio</a>
-													</li>
-												</ul>
-											</td>
-										</tr>
-										<tr>
-											<td class="gf-legal">Copyright © 1995-2019 eBay Inc. Todos los derechos reservados. 
-												<a href="https://pages.ebay.com/co/es-co/help/policies/user-agreement.html">Condiciones de uso</a>, 
-												<a href="https://pages.ebay.com/co/es-co/help/policies/privacy-policy.html">Aviso de privacidad</a>, 
-												<a href="https://pages.ebay.com/co/es-co/help/account/cookies-web-beacons.html">cookies</a> y 
-												<a href="https://cgi6.ebay.com/ws/eBayISAPI.dll?AdChoiceLandingPage&amp;partner=0" id="gf-AdChoice">AdChoice</a></td>
-											<td></td>
-											<td >
-												<a title="Verificar el certificado SSL del sitio" _exsp="m571.l3943" href="https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&amp;dn=www.ebay.com&amp;lang=en" onclick="this.href='https://trustsealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&amp;dn=#D#&amp;lang=en'.replace(/#D#/,location.host);return true" rel="noreferrer">
-													<i id="gf-norton">Norton Secured</i></a></td>
-										</tr>
-									</tbody>
-								</table>
-					</div>
-					<!-- /row -->
-				</div>
-				<!-- /container -->
-			</div>
-			<!-- /top footer -->
-		</footer>
-		<!-- /FOOTER -->
-
+		<?php
+		include("pie-de-pagina.php");
+		?>
 		<!-- jQuery Plugins -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
