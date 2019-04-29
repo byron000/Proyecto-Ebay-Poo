@@ -163,11 +163,6 @@
 				<a href="#"><span>Los cables KVM</span></a>
 			</div>
 	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Los cables KVM</span></a>
-		</div>
-</li>
 <li>
 	<div class="input-checkbox">
 		<a href="#"><span>Cables Y Adaptadores Monitor/AV</span></a>
@@ -423,11 +418,6 @@
 											<a href="#"><span>Fuentes de alimentación del monitor de la computadora</span></a>
 										</div>
 								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Fuentes de alimentación del monitor de la computadora</span></a>
-									</div>
-							</li>
 							<li>
 								<div class="input-checkbox">
 									<a href="#"><span>Monitores de computadora</span></a>
@@ -598,7 +588,7 @@
 				<a href="#"><span>Web y software de edición de escritorio</span></a>
 			</div>
 	</li>
-												</ul>
+				</ul>
 											</li>
 																<li>
 										<div class="input-checkbox">
