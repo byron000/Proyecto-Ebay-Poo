@@ -8,10 +8,10 @@
 							<div class="col-6">
 					<ul class="header-links pull-left">
 							<li>
-									<span>¡Hola!  <a href="#" style="color:#4E86CE"> Inicia sesion</a>
+									<span>¡Hola!  <a href="Formularios-ebay/iniciar sesion.html" style="color:#4E86CE"> Inicia sesion</a>
 									&nbsp;
 										<span>
-											o <a id="registro" href="#" style="color: #4E86CE"> Registrate </a>
+											o <a id="registro" href="Formularios-ebay/Registro.html" style="color: #4E86CE"> Registrate </a>
 										</span>
 									</span>
 							</li>
