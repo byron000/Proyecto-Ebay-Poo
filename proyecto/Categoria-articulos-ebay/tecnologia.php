@@ -81,9 +81,9 @@
 											<span>3D impresoras y suministros</span>
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
-									</div>
+									
 									<ul id="lista-ul" style="display: none">
-										<li>
+									<li>
 										<div class="input-checkbox">
 											<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
 										</div>
@@ -109,6 +109,7 @@
 						</div>
 				</li>
 								</ul>
+								</div>
 									</li>
 								<li>
 										<div class="input-checkbox" >

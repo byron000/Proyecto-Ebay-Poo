@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $.ajax({
+        url:"ajax/obtener-subcategoria.php",
+        dataType:"json",
+        success:function(res){
+            console.log(res);
+           },
+        error:function(error){
+            console.log(error);
+        }
+    });
+
+    $.ajax({
+        url:"ajax/articulos.php?accion=listar",
+        dataType:"json",
+        success:function(res){
+            console.log(res);
+        },
+        error:function(error){
+            console.log(error);
+        }
+    });
+});

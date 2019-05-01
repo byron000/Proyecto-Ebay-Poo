@@ -1,5 +1,5 @@
 <?php
-class artticulos{
+class Articulos{
 	private $nombre;
 	private $estado;
 	private $cantidad;
@@ -55,6 +55,9 @@ class artticulos{
 
 	public function setPrecioactual($precioactual){
 		$this->precioactual = $precioactual;
+	}
+	public static function obtenerArticulos(){
+		return file_get_contents("../data/articulos.jason");
 	}
 
 }
