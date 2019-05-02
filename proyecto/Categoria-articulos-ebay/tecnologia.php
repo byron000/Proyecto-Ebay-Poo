@@ -81,33 +81,8 @@
 											<span>3D impresoras y suministros</span>
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
-									
-									<ul id="lista-ul" style="display: none">
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Ver todo en 3D impresoras y suministros</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Impresora 3D & 3D piezas y accesorios para escáner</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Insumos y filamento impresora 3D</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Impresoras 3D </span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Los escaneres 3D </span></a>
-						</div>
-				</li>
+									<ul id="lista-ul" style="display: block">
+								
 								</ul>
 								</div>
 									</li>
