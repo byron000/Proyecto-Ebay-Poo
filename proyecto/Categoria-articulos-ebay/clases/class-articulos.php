@@ -17,7 +17,6 @@ class Articulos{
 		$this->estado = $estado;
 		$this->cantidad = $cantidad;
 		$this->precio = $precio;
-		$this->ahorras = $ahorras;
 		$this->precioactual = $precioactual;
 	}
 
@@ -57,7 +56,7 @@ class Articulos{
 		$this->precioactual = $precioactual;
 	}
 	public static function obtenerArticulos(){
-		return file_get_contents("../data/articulos.jason");
+		return file_get_contents("../data/articulos.json");
 	}
 
 }
