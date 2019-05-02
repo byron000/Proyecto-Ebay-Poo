@@ -191,7 +191,7 @@
 				<!-- Vat Excluded message -->
 				</div>
 												 <div class="u-flL">
-													 <a role="button" _sp="p2047675.l1356" id="binBtn_btn" style="color: white; margin-left: 199px" class="btn btn-prim  vi-VR-btnWdth-XL " href="https://offer.ebay.com/ws/eBayISAPI.dll?BinController&amp;rev=12&amp;fromPage=2047675&amp;item=292919641189&amp;gch=1&amp;fb=1" vib="vib" rel="nofollow" "="">
+													 <a role="button" _sp="p2047675.l1356" id="binBtn_btn" style="color: white; margin-left: 199px" class="btn btn-prim  vi-VR-btnWdth-XL " href="../Formularios-ebay/informacion-de-contacto.html" vib="vib" rel="nofollow" "="">
 													 ¡Cómpralo ahora!<span class="clipped"> - </span>
 													 </a>
 												 <div class="oly_upnl" id="streamLineBinOly"><div id="streamline-bin-layer">
@@ -221,7 +221,7 @@
 										 <div class="vi-bbox-dspn u-flL lable">&nbsp;</div>
 										 <div class="vi-bbox-dspn u-flL w29">&nbsp;</div>
 										 <span>
-													 <a role="button" _sp="p2047675.l1473" id="isCartBtn_btn" style=" box-sizing: border-box;color: white;	font-size: small;" class="btn btn-scnd  vi-VR-btnWdth-XL " href="https://cart.payments.ebay.com/sc/add?item=iid:292919641189,qty:1&amp;srt=01000300000050c01ba688b63fe4b130aa7d3e5590c5b38fcc47de82d39f203acf7d24af11a1f6fe48e19ab2fee38b32a37d6a9cec76681cb0929eec05b0636ab5476fb760bead8c3bba73bcc239307f8c3f1663a25ec5&amp;ssPageName=CART:ATC" vib="vib" rel="nofollow" "="">
+													 <a role="button" _sp="p2047675.l1473" id="isCartBtn_btn" style=" box-sizing: border-box;color: white;	font-size: small;" class="btn btn-scnd  vi-VR-btnWdth-XL " href="../Formularios-ebay/informacion-de-contacto.html" vib="vib" rel="nofollow" "="">
 													 Agregar al carro de compras<span class="clipped"> - </span>
 													 </a>
 												 </span>
