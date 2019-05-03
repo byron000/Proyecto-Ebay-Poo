@@ -8,10 +8,10 @@
 							<div class="col-6">
 					<ul class="header-links pull-left">
 							<li>
-									<span>¡Hola!  <a href="Formularios-ebay/iniciar sesion.html" style="color:#4E86CE"> Inicia sesion</a>
+									<span>¡Hola!  <a href="../Formularios-ebay/login.html" style="color:#4E86CE"> Inicia sesion</a>
 									&nbsp;
 										<span>
-											o <a id="registro" href="Formularios-ebay/Registro.html" style="color: #4E86CE"> Registrate </a>
+											o <a id="registro" href="../Formularios-ebay/registro.html" style="color: #4E86CE"> Registrate </a>
 										</span>
 									</span>
 							</li>
@@ -67,12 +67,42 @@
 									<form id="form-categoria">
 										<input id="input-buscar" class="input" placeholder="Buscar articulos">
 										<select id="select-categoria" class="input-select">
-											<option value="0">Todas las categorias</option>
-											<option value="1">Categoria 01</option>
-											<option value="2">Categoria 02</option>
-											<option value="3">Categoria 03</option>
-											<option value="4">Categoria 04</option>
-											<option value="5">Categoria 05</option>
+										<option value="0">Todas las categorias</option>
+										<option value="1">Antiguedades</option>
+										<option value="2">Arte</option>
+										<option value="3">Artesania</option>
+										<option value="4">Articulos de coleccion</option>
+										<option value="5">Articulos deportivos</option>
+										<option value="6">Articulos para mascotas</option>
+										<option value="7">Bebes</option>
+										<option value="9">Belleza y salud</option>
+										<option value="10">Bienes raices</option>
+										<option value="11">Camaras y fotografia</option>
+										<option value="12">Celulares y accesorios</option>
+										<option value="13">Ceramica y cristal</option>
+										<option value="14">Computadoras, tablets y redes</option>
+										<option value="15">DVD y peliculas</option>
+										<option value="16">eBays Motors</option>
+										<option value="17">Entradas, boletos</option>
+										<option value="18">Entretenimiento</option>
+										<option value="19">Equipo y maquinaria Industrial</option>
+										<option value="20">Hogar y Jardin</option>
+										<option value="21">Instrumentos y equipos musicales</option>
+										<option value="22">Joyas y relojes</option>
+										<option value="23">Juguetes y pasatiempos</option>
+										<option value="24">Libros</option>
+										<option value="25">Memorabilia deportiva, cromos y articulos para aficionados</option>
+										<option value="26">Monedas y billetes</option>
+										<option value="27">Muñecas y osos</option>
+										<option value="28">Musica</option>
+										<option value="29">Ropa, zapatos y accesorios</option>
+										<option value="30">Sellos</option>
+										<option value="31">Servicios especiales</option>
+										<option value="32">Tarjetas de regalos y cupones</option>
+										<option value="33">Tecnologia</option>
+										<option value="34">Viajes</option>
+										<option value="35">Videojuegos y consolas</option>
+										<option value="36">Todo lo demas</option>
 										</select>
 										<button id="btn-buscar" class="search-btn">Buscar</button>
 										<div class="col-md-3 clearfix" style="float: right; width: auto;">

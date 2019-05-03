@@ -66,14 +66,14 @@
                             while(($linea = fgets($archivo))){
                                 $registro = json_decode($linea,true);
                                 if ($valor == $registro["email"]){
-                                    echo    '<p><b>('.$registro['nombre'].')</b><a href="index.html">cerrar sesion</a></p>
+                                    echo    '<p><b>('.$registro['nombre'].')</b><a href="cerrar-sesion.php">cerrar sesion</a></p>
                                    
                                             ';  
                                 }else{
                                    echo ' </span>  <a id="ul2" href="Formularios-ebay/login.html" style="color:blue"> Inicia sesion</a>
                                     &nbsp;
                                     <span>
-                                     o <a id="ul2" href="Formularios-ebay/Registro.html" style="color:blue"> Registrate </a>
+                                     o <a id="ul2" href="Formularios-ebay/registro.html" style="color:blue"> Registrate </a>
                                     </span>
                                     </span>
                                             ';  
@@ -233,7 +233,7 @@
 					<ul id="menu2" class="main-nav nav navbar-nav">
 						<li class="active"><a href="#">Inicio</a></li>
 						<li><a href="#"><i class="fa fa-heart"></i> Guardado</a></li>
-						<li><a href="Categoria-articulos-ebay/tecnologia.html">Tecnologìa</a></li>
+						<li><a href="Categoria-articulos-ebay/tecnologia.php">Tecnologìa</a></li>
 						<li><a href="#">Moda</a></li>
 						<li><a href="#">Salud y Belleza</a></li>
 						<li><a href="#">Vehìculos</a></li>
