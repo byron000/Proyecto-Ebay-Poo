@@ -300,7 +300,7 @@ $(document).ready(function(){
         },
         error:function(error){
         console.log(error);
-        $("#lista-ul").append(error.responseText);
+        $("#breadcrumb").append(error.responseText);
         }
     });
 
