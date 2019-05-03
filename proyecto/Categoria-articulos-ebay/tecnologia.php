@@ -82,7 +82,7 @@
 											<i class="fas fa-angle-down" style="color: #0956BB; float: right"></i>
 										</button>
 									<ul id="lista-ul" style="display: block">
-								
+									
 								</ul>
 								</div>
 									</li>
@@ -94,76 +94,7 @@
 											</button>
 										</div>
 										<ul id="lista-ul-2" style="display: none">
-											<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Ver todo en Cables y conectores de Computadora</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Cables Y Adaptadores de audio de Ordenador</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Probadores de Cables de Computadora</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Ataduras De Cables de computadora y organizadores de Joyas </span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Herramientas para cables de Computadora </span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Cables Y Adaptadores para Unidad de computadora</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Cables y conectores de alimentación del equipo</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Cables Y Adaptadores para Firewire</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Los cables KVM</span></a>
-			</div>
-	</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Cables Y Adaptadores Monitor/AV</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Cables Y Adaptadores de red</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Otros cables y conectores de Computadora</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Paralelo, serie y PS/2 Cables y Adaptadores</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Cables USB, hubs y adaptadores</span></a>
-	</div>
-</li>
+											
 									</ul>
 									</li>
 									<li>
@@ -174,86 +105,7 @@
 												</button>
 											</div>
 											<ul id="lista-ul-3" style="display: none">
-												<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Ver todo en Piezas y componentes de Computadora</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Fundas y Accesorios</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Los ventiladores de la computadora, equipo de refrigeración y disipadores de calor</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Tarjetas gráficas de Computadora</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Computer Memory (RAM)</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Combos de CPU y tarjetas madre para computadora</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Placas Base de Ordenador</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Fuentes de alimentación del equipo</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Probadores de suministro de energía de Computadora</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Los procesadores de computadora (CPU)</span></a>
-			</div>
-	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Tarjetas de interfaz y Add-On</span></a>
-		</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Tarjetas de sonido interno</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Piezas de repuesto para Laptop</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Accesorios y componentes de la placa base</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Otras piezas y componentes de Computadora</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Captura de video y sintonizadores de TV</span></a>
-	</div>
-</li>
+												
 										</ul>
 										</li>
 										<li>
@@ -264,66 +116,7 @@
 													</button>
 												</div>
 												<ul id="lista-ul-4" style="display: none">
-													<li>
-													<div class="input-checkbox">
-														<a href="#"><span>Ver todo en Unidades de disco, almacenamiento y Discos en Blanco</span></a>
-													</div>
-											</li>
-											<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Accesorios y Discos en Blanco</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>CD, DVD y Blu-ray</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>CD, DVD y Blu-ray Duplicadoras</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Cajas para Compartimiento de Unidad de computadora</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Gabinetes de unidades de computadora y Muelles</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Unidades de disco flexible, Zip y Jaz</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Duplicadores de disco duro</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Discos duros (HDD, SSD y NAS)</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Otras unidades, almacenamiento y Discos en Blanco</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Cartucho de datos y unidades de cinta</span></a>
-			</div>
-	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Las unidades flash USB</span></a>
-		</div>
-</li>
+													
 											</ul>
 											</li>
 										<li>
@@ -334,41 +127,7 @@
 												</button>
 										</div>
 										<ul id="lista-ul-5" style="display: none">
-											<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Ver todo en Teclados, mouse y punteros de Computadora</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Computer Graphics Tablets, tableros y Bolígrafos</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Paquetes de Teclado y Mouse de computadora</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Teclados y teclados táctiles de Computadora</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Mouse, Trackball y paneles táctiles de Computadora</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Controles remotos y punteros de Computadora</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Otros teclados, mouse y punteros de Computadora</span></a>
-					</div>
-			</li>
+											
 									</ul>
 										</li>
 									<li>
@@ -379,41 +138,7 @@
 												</button>
 											</div>
 											<ul id="lista-ul-6" style="display: none">
-												<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Ver todo en Monitores, proyectores y accesorios de Computadora</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Montajes y soportes de monitor de computadora</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Fuentes de alimentación del monitor de la computadora</span></a>
-										</div>
-								</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Monitores de computadora</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Piezas y accesorios de proyector ordenador</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Proyectores de Computadora</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Otros monitores, proyectores y accesorios de Computadora</span></a>
-					</div>
-			</li>
+												
 										</ul>
 											</li>
 													<li>
@@ -424,41 +149,7 @@
 											</button> 
 											</div>
 											<ul id="lista-ul-7" style="display: none">
-												<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Ver todo en Equipo de protección y distribución de energía de Computadora</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Unidades de distribución de energía de Computadora</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Inversores de energía para computadora</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Protectores contra sobretensiones ordenador y tomas de alimentación</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Equipo de fuentes de alimentación ininterrumpida (UPS)</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Baterías y componentes de UPS de Computadora</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Otros equipos de protección y distribución de energía de Computadora</span></a>
-						</div>
-				</li>
+												
 										</ul>
 									</li>
 											<li>
@@ -469,31 +160,7 @@
 															</button>
 											</div>
 											<ul id="lista-ul-8" style="display: none">
-												<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Ver todo en Impresoras, escáneres y suministros de Computadora</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Impresoras de Ordenador</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Escáneres de Computadora</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Piezas y accesorios para impresoras y escáner</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Tinta, tóner y papel de impresora</span></a>
-								</div>
-						</li>
+												
 										</ul>
 													</li>
 								<li>
@@ -504,66 +171,7 @@
 										</button>
 													</div>
 													<ul id="lista-ul-9" style="display: none">
-														<li>
-														<div class="input-checkbox">
-															<a href="#"><span>Ver todo en Software de computadora</span></a>
-														</div>
-												</li>
-												<li>
-													<div class="input-checkbox">
-														<a href="#"><span>Software antivirus y seguridad</span></a>
-													</div>
-											</li>
-											<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Driver y software de utilidad</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Educación, lenguaje y software de referencia</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Hobby & Leisure Software</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Software de imagen, video y audio</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Software oficina y Negocios</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Software del sistema operativo</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Otros programas informáticos</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Finanzas personales, impuestos y software Legal</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Software de servidor, desarrollo y DBMS</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Web y software de edición de escritorio</span></a>
-			</div>
-	</li>
+														
 				</ul>
 											</li>
 																<li>
@@ -582,66 +190,7 @@
 													</button>
 														</div>
 														<ul id="lista-ul-10" style="display: none">
-															<li>
-															<div class="input-checkbox">
-																<a href="#"><span>Ver todo en Computadoras, tablets y redes Lotes al Por Mayor</span></a>
-															</div>
-													</li>
-													<li>
-														<div class="input-checkbox">
-															<a href="#"><span>Otros en computadoras, tablets y redes Lotes al Por Mayor</span></a>
-														</div>
-												</li>
-												<li>
-													<div class="input-checkbox">
-														<a href="#"><span>Accesorios de computadora al por mayor</span></a>
-													</div>
-											</li>
-											<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Piezas y componentes de computadora al por mayor</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Venta al por mayor unidades de disco, almacenamiento y Discos en Blanco</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Monitores y proyectores de computadora al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Red y conectividad de computadora al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Suministros para impresoras y accesorios de computadora al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Impresoras y escáneres de computadora al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Software de computadora al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Computadoras al por mayor</span></a>
-											</div>
-									</li>
-									<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Laptops y tablets al por mayor</span></a>
-											</div>
-									</li>
+															
 													</ul>
 														</li>
 														<li>
@@ -652,21 +201,7 @@
 														</button>
 														</div>
 														<ul id="lista-ul-11" style="display: none">
-															<li>
-															<div class="input-checkbox">
-																<a href="#"><span>Ver todo en Computadoras de escritorio y computadoras Todo en Uno</span></a>
-															</div>
-													</li>
-													<li>
-														<div class="input-checkbox">
-															<a href="#"><span>Computadoras Apple y ordenadores Todo en Uno</span></a>
-														</div>
-												</li>
-												<li>
-													<div class="input-checkbox">
-														<a href="#"><span>PC de escritorio y computadoras Todo en Uno</span></a>
-													</div>
-											</li>
+															
 													</ul>
 														</li>	
 															<li>
@@ -677,76 +212,7 @@
 												</button>
 								</div>
 								<ul id="lista-ul-12" style="display: none">
-									<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Ver todo en Redes y servidores empresariales</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>CSU/dsu empresariales</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Antenas direccionales empresariales</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Firewall y dispositivos VPN empresariales</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Equilibradores de carga empresariales</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Componentes de Servidor de red empresarial</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Servidores, clientes y terminales de red empresarial</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Arreglos de discos de almacenamiento de red empresarial</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Conmutadores y hubs de red empresarial</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Componentes de routers empresariales</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Routers empresariales</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Otras redes y servidores empresariales</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Bastidores de servidor, chasis y paneles de conexión</span></a>
-					</div>
-			</li>
-			<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Teléfonos de negocios VoIP y PBX IP</span></a>
-					</div>
-			</li>
+									
 							</ul>
 									</li>	
 											<li>
@@ -757,76 +223,7 @@
 										</button>
 										</div>
 										<ul id="lista-ul-13" style="display: none">
-											<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Ver todo en Red doméstica y equipos de conectividad</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Ordenador módem-Router combos</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Módem de Computadora</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Routers con Cable Red doméstica</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Puntos de acceso inalámbrico de red doméstica</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Red doméstica routers inalámbricos</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Dispositivos de banda ancha móvil</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Otros equipos de red y conectividad doméstica</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Equipo de red PowerLine, piezas y accesorios</span></a>
-			</div>
-	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Adaptadores y dongles USB Bluetooth</span></a>
-		</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Los adaptadores de red Wi-Fi USB y dongles</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Adaptadores de teléfonos voz sobre IP Uso Doméstico</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Teléfonos voz sobre IP Uso Doméstico</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Impulsores de Wi-Fi, extensores y Antenas</span></a>
-	</div>
-</li>
+											
 									</ul>
 										</li>	
 								<li>
@@ -837,131 +234,7 @@
 										</button>
 									</div>
 									<ul id="lista-ul-14" style="display: none">
-										<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Ver todo en Laptop & Desktop Accessories</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Cerraduras antirrobo computadora y kits</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Caja de la computadora mods, autoadhesivos y Calcomanías</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Equipo de limpieza de la computadora y kits</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Auriculares de Ordenador</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Protectores de teclado de la computadora</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Lectores y adaptadores de tarjeta de memoria de Computadora</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Micrófonos para computadora</span></a>
-			</div>
-	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Filtros de privacidad de pantalla de computadora</span></a>
-		</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Protectores de pantalla de computadora</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Altavoces de la computadora</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Soportes de computadora, soportes y soportes de coche</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Luces Usb de la computadora y Gadgets</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Computer webcams</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Tarjetas de sonido externo</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Bolsas de disco duro</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Tarjetas complementarias para Laptop</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Baterías del portátil</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Estuches y bolsos para Laptop</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Almohadillas de enfriamiento para Laptop</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Estaciones de acoplamiento del ordenador portátil</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Cargadores y adaptadores para Laptop</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Mouse pads y Muñeca descansa</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Otros accesorios para Laptop y Computadora</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Sintonizador de TV y Captura de Video para ordenadores</span></a>
-	</div>
-</li>
+										
 								</ul>
 									</li>
 						<li>
@@ -972,21 +245,7 @@
 									</button>
 											</div>
 											<ul id="lista-ul-15" style="display: none">
-												<li>
-												<div class="input-checkbox">
-													<a href="#"><span>Ver todo en Las computadoras portátiles y netbooks</span></a>
-												</div>
-										</li>
-										<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Ordenadores portátiles de Apple</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Computadoras portátiles y netbooks</span></a>
-										</div>
-								</li>
+												
 										</ul>
 										</li>	
 					<li>
@@ -1004,71 +263,7 @@
 												</button>
 										</div>
 										<ul id="lista-ul-16" style="display: none">
-											<li>
-											<div class="input-checkbox">
-												<a href="#"><span>Ver todo en Lector de libros electrónicos y tablet Accesorios</span></a>
-											</div>
-									</li>
-									<li>
-										<div class="input-checkbox">
-											<a href="#"><span>Otros accesorios lector de libros electrónicos y Tablet</span></a>
-										</div>
-								</li>
-								<li>
-									<div class="input-checkbox">
-										<a href="#"><span>Lector de libros electrónicos y tablet a/V Cables y Adaptadores</span></a>
-									</div>
-							</li>
-							<li>
-								<div class="input-checkbox">
-									<a href="#"><span>Paquetes de accesorios lector de libros electrónicos y Tablet</span></a>
-								</div>
-						</li>
-						<li>
-							<div class="input-checkbox">
-								<a href="#"><span>Lector de libros electrónicos y Tablet Teclado Estuches, Fundas y folios</span></a>
-							</div>
-					</li>
-					<li>
-						<div class="input-checkbox">
-							<a href="#"><span>Lector de libros electrónicos y tablet cargadores y cables de sincronización</span></a>
-						</div>
-				</li>
-				<li>
-					<div class="input-checkbox">
-						<a href="#"><span>Lector de libros electrónicos y tablet estaciones de acoplamiento y teclados</span></a>
-					</div>
-			</li>
-			<li>
-				<div class="input-checkbox">
-					<a href="#"><span>Lector de libros electrónicos y tablet tarjetas de memoria y adaptadores USB</span></a>
-				</div>
-		</li>
-		<li>
-			<div class="input-checkbox">
-				<a href="#"><span>Lector de libros electrónicos y tablet Mounts, Bases y soportes</span></a>
-			</div>
-	</li>
-	<li>
-		<div class="input-checkbox">
-			<a href="#"><span>Luces de lectura lector de libros electrónicos y Tablet</span></a>
-		</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Protectores de pantalla para lector de libros electrónicos y Tablet</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Autoadhesivos y Calcomanías lector de libros electrónicos y Tablet</span></a>
-	</div>
-</li>
-<li>
-	<div class="input-checkbox">
-		<a href="#"><span>Estiletes para tabletas y lectores electrónicos</span></a>
-	</div>
-</li>
+											
 									</ul>
 										</li>	
 										<li>
@@ -1587,6 +782,7 @@
 		?>
 		<!-- jQuery Plugins -->
 		<script src="js/jquery.min.js"></script>
+		<script src="js/sub-categorias.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/slick.min.js"></script>
 		<script src="js/nouislider.min.js"></script>
