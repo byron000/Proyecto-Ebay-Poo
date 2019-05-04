@@ -50,7 +50,7 @@
 							<div  class="col-md-3 col-xs-3" style="padding: 0px;
 							width: 230px;">
 								<div class="header-logo">
-									<a href="#" class="logo">
+									<a href="../index.html" class="logo">
 											<img id="logo" src="img/EBay_logo.png" alt="">
 									</a>
 									</div>
@@ -63,11 +63,11 @@
 							<div class="col-md-9 col-xs-9">
 								<div class="header-search" style="float: left">
 									<form id="form-categoria">
-										<input id="input-buscar" class="input" placeholder="Buscar articulos">
+										<input id="busqueda" class="input" placeholder="Buscar articulos">
 										<select id="select-categoria" class="input-select" style="width:200px">
 										
 										</select>
-										<button id="btn-buscar" class="search-btn">Buscar</button>
+										<button id="btn-buscar" class="search-btn" type="button">Buscar</button>
 										<div class="col-md-3 clearfix" style="float: right; width: auto;">
 											<div class="header-ctn">
 												<!-- Menu Toogle -->

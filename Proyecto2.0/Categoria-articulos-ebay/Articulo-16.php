@@ -159,5 +159,7 @@
 		<script src="js/main.js"></script>
 		<script src="js/controlador3.js"></script>
 		<script src="js/controlador2.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/controlador4.js"></script>	
 	</body>
 </html>

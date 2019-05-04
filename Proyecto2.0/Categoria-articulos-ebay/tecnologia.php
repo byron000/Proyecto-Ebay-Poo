@@ -1,4 +1,8 @@
-
+<?php 
+    session_start();  
+    if (!isset($_SESSION["busqueda"]))
+        header("Location: no-autorizado.html");//Redireccion con PHP
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -44,6 +48,7 @@
 	include("encabezado.php");
 	?>
 		<!-- BREADCRUMB -->
+		<div id="error"></div>
 		<div id="breadcrumb" class="section" style="background-color: #F5F5F5;">
 			<!-- container -->
 			<div class="container">
@@ -317,13 +322,13 @@
 					<div class="b-visualnav__heading">
 					</div>
 					<div class="b-visualnav__grid">
-						<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+						<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php" role="text" >
 							<div class="b-visualnav__img b-visualnav__img__default">
 								<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/M~MAAOSwNXpcPilp/s-l225.webp" width="225" height="225">
 							</div>
 								<div class="b-visualnav__title">PC Laptops &amp; Netbooks</div>
 									</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/ijQAAOSwusdcPilu/s-l225.webp" width="225" height="225">
 			</div>
@@ -335,43 +340,43 @@
 			</div>
 				<div class="b-visualnav__title">Tabletas Apple</div>
 			</a>
-			<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+			<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-3.php" role="text" >
 				<div class="b-visualnav__img b-visualnav__img__default">
 					<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/sqgAAOSw6CRcPipB/s-l225.webp" width="225" height="225">
 				</div>
 					<div class="b-visualnav__title">PC Desktops y todo en uno</div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/FuQAAOSwW4tcPipM/s-l225.webp" width="225" height="225">
 			</div>
 				<div class="b-visualnav__title">Computadoras Apple y todo en uno</div>
 			</a>
-			<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+			<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-3.php" role="text" >
 				<div class="b-visualnav__img b-visualnav__img__default">
 					<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/P6YAAOSwEUdcPipe/s-l225.webp" width="225" height="225">
 				</div>
 					<div class="b-visualnav__title">Accesorios para computadora</div>
 					</a>
-					<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+					<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php" role="text" >
 						<div class="b-visualnav__img b-visualnav__img__default">
 							<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/Ul8AAOSwCgtcPipu/s-l225.webp" width="225" height="225">
 						</div>
 							<div class="b-visualnav__title">Accesorios para Tableta</div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php3" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/rpIAAOSwjfBcPipy/s-l225.webp" width="225" height="225">
 			</div>
 				<div class="b-visualnav__title">Impresoras</div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/2OcAAOSwLX5cPip3/s-l225.webp" width="225" height="225">
 			</div>
 				<div class="b-visualnav__title">Componentes y partes de computadora</div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/DEkAAOSw~slcPip7/s-l225.webp" width="225" height="225">
 			</div>
@@ -388,7 +393,7 @@
 		<h2 class="b-title ">Gaming</h2>
 		</div>
 	<div class="b-visualnav__grid">
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-2.php" role="text" >
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/2foAAOSwH~Rbu9Mk/s-l225.webp" width="225" height="225">
 		</div>
@@ -400,49 +405,49 @@
 		</div>
 		<div class="b-visualnav__title">Alienware PC Desktops </div>
 			</a>
-			<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+			<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-3.php" role="text" >
 				<div class="b-visualnav__img b-visualnav__img__default">
 					<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/VboAAOSwUlxbu9Mr/s-l225.webp" width="225" height="225">
 				</div>
 				<div class="b-visualnav__title">Monitores Widescreen </div>
 	</a>
-	<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+	<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-12.php" role="text" >
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/za0AAOSwCnVbu9Mu/s-l225.webp" width="225" height="225">
 		</div>
 		<div class="b-visualnav__title">Videojuegos</div>
 	</a>
-	<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+	<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-14.php" role="text" >
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/ohoAAOSwQjxbu9Mz/s-l225.webp" width="225" height="225">
 		</div>
 		<div class="b-visualnav__title">Tarjetas graficas</div>
 	</a>
-	<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+	<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/lOoAAOSwa9Bbu9M5/s-l225.webp" width="225" height="225">
 		</div>
 		<div class="b-visualnav__title">Headsets PC</div>
 	</a>
-	<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text">
+	<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text">
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/iMgAAOSwAOxbu9M9/s-l225.webp" width="225" height="225">
 		</div>
 		<div class="b-visualnav__title">Teclados Gaming</div>
 	</a>
-	<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+	<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 		<div class="b-visualnav__img b-visualnav__img__default">
 			<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/jSsAAOSwZl1bu9NB/s-l225.webp" width="225" height="225">
 		</div>
 		<div class="b-visualnav__title">Ratones Gaming</div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/gnMAAOSwOuBbu9NG/s-l225.webp" width="225" height="225">
 			</div>
 			<div class="b-visualnav__title">Gaming Mouse Pads </div>
 		</a>
-		<a class="b-visualnav__tile b-visualnav__tile__default" href="#" role="text" >
+		<a class="b-visualnav__tile b-visualnav__tile__default" href="Articulo-4.php" role="text" >
 			<div class="b-visualnav__img b-visualnav__img__default">
 				<img alt="" class="b-img" itemprop="image" role="presentation" src="https://i.ebayimg.com/thumbs/images/g/TuEAAOSwJtVbu9NN/s-l225.webp" width="225" height="225">
 		</div>
@@ -532,7 +537,7 @@
 			</div>
 	</a></li>
 	<li aria-hidden="true">
-		<a class="b-tile" href="#" _sp="p2489527.m4329.l8656" tabindex="-1">
+		<a class="b-tile" href="4" _sp="p2489527.m4329.l8656" tabindex="-1">
 		<div class="b-tile__imgwrap">
 			<div class="b-tile__img">
 	<img alt="Rosewill RGB Gaming Keyboard, Con Cable, membrana mecánica, Blanco, Neón K51W" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/hH0AAOSwdU1cZEMv/s-l225.webp" width="1600" height="1200"></div>
@@ -549,7 +554,7 @@
 		</a>
 		</li>
 			<li aria-hidden="true">
-				<a class="b-tile" href="#" _sp="p2489527.m4329.l8656" tabindex="-1">
+				<a class="b-tile" href="Articulo-3.php" _sp="p2489527.m4329.l8656" tabindex="-1">
 					<div class="b-tile__imgwrap">
 						<div class="b-tile__img">
 				<img alt="Nueva Dell Latitude 7389 13.3&quot; computadora portátil de 2 en 1 Core i7-7600U 16GB Ram 512GB SSD" aria-hidden="true" class="b-img" itemprop="image" src="https://i.ebayimg.com/thumbs/images/g/GzEAAOSwJ7RcD~AH/s-l225.webp" width="1600" height="1200"></div>
@@ -562,7 +567,7 @@
 		<div class="b-info__trenddeals-price">
 			<span role="text"><span class="clipped">costaba</span>
 		<span class="strikethrough">L 29&nbsp;405.75</span></span> | <strong class="bold">25 % DE DESCUENTO</strong></div></div></a></li><li aria-hidden="true">
-			<a class="b-tile" href="#" _sp="p2489527.m4329.l8656" tabindex="-1">
+			<a class="b-tile" href="Articulo-4.php" _sp="p2489527.m4329.l8656" tabindex="-1">
 			<div class="b-tile__imgwrap">
 			<div class="b-tile__img">
 		<img alt="Fujifilm Instax Share Smartphone Impresora SP-2 +80 películas + batería Extra valor superior" aria-hidden="true" class="b-img" itemprop="image" data-src="#" src="https://i.ebayimg.com/thumbs/images/g/iv0AAOSw0LhcP9H5/s-l225.webp" width="500" height="500"></div>
@@ -605,61 +610,61 @@
 							<div class="x-carousel__body no-scroll" id="w6-xCarousel-x-carousel-items">
 								<ul>
 									<li aria-hidden="false">
-										<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+										<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php"  _sp="p2489527.m4549.l8401.c1">
 											<p class="b-guidancecard__title">Partes y componentes de computadora</p>
 										</a>
 									</li>
-									<li aria-hidden="false"><a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+									<li aria-hidden="false"><a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-2.php"  _sp="p2489527.m4549.l8401.c1">
 										<p class="b-guidancecard__title">Laptops y netbooks</p>
 									</a>
 								</li>
 								<li aria-hidden="false">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-2.php"  _sp="p2489527.m4549.l8401.c1">
 										<p class="b-guidancecard__title">Accesorios para laptops y computadoras</p>
 									</a>
 								</li>
 								<li aria-hidden="false">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-2.php"  _sp="p2489527.m4549.l8401.c1">
 										<p class="b-guidancecard__title">Accesorios para tablets y lectores electrónicos</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-2.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Tablets y lectores electrónicos</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-2.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Tablets y lectores electrónicos</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-4.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Unidades de disco, almacenamiento y discos en blanco</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-4.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Impresoras, escáneres y suministros</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Computadoras y todo en uno</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-4.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Teclados, mouse y punteros</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-4.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Redes y servidores empresariales</p>
 									</a>
 								</li>
 								<li aria-hidden="true">
-									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+									<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-10.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 										<p class="b-guidancecard__title">Red y conectividad para residencias</p>
 									</a>
 								</li>
@@ -695,61 +700,61 @@
 										<div class="x-carousel__body no-scroll" id="w6-xCarousel-x-carousel-items">
 											<ul>
 												<li aria-hidden="false">
-													<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+													<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-13.php"  _sp="p2489527.m4549.l8401.c1">
 														<p class="b-guidancecard__title">Umbranded</p>
 													</a>
 												</li>
-												<li aria-hidden="false"><a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+												<li aria-hidden="false"><a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-1.php"  _sp="p2489527.m4549.l8401.c1">
 													<p class="b-guidancecard__title">Apple</p>
 												</a>
 											</li>
 											<li aria-hidden="false">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php"  _sp="p2489527.m4549.l8401.c1">
 													<p class="b-guidancecard__title">Dell</p>
 												</a>
 											</li>
 											<li aria-hidden="false">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"  _sp="p2489527.m4549.l8401.c1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php"  _sp="p2489527.m4549.l8401.c1">
 													<p class="b-guidancecard__title">HP</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Lenovo</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Asus</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Samsung</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Intel</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Microsoft</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#"_sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php"_sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">MSI</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">EVGA</p>
 												</a>
 											</li>
 											<li aria-hidden="true">
-												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="#" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
+												<a class="b-guidancecard__link b-guidancecard__link--noimg" href="Articulo-3.php" _sp="p2489527.m4549.l8401.c1" tabindex="-1">
 													<p class="b-guidancecard__title">Cisco</p>
 												</a>
 											</li>
@@ -790,5 +795,7 @@
 		<script src="js/main.js"></script>
 		<script src="js/controlador.js"></script>
 		<script src="js/controlador2.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/controlador4.js"></script>		
 	</body>
 </html>

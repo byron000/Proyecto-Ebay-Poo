@@ -93,7 +93,7 @@
 						<!-- LOGO -->
 						<div class="col-md-3" style="width: auto">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="index.html" class="logo">
 									<img src="./img/logo1.png" alt="">
 								</a>
 							</div>
@@ -106,22 +106,54 @@
 								<form>
 									<select class="input-select">
 										<option id="select1" value="0">Comprar por categoria</option>
-										<option value="1">Category 01</option>
-										<option value="1">Category 02</option>
+										<option value="1"><a>Articulos de coleccion y arte</a></option>
+										<option value="1">Tecnologia</option>
+										<option value="1">Moda</option>
+										<option value="1">Hogar y jardin</option>
+										<option value="1">Repuestos y accesorios</option>
+										<option value="1">Instrumentos y equipos musicales</option>
+										<option value="1" style="color:blue;"></option>
 									</select>
-									<input class="input" placeholder="Buscar Articulos">
+									<input id="busqueda" class="input" placeholder="Buscar Articulos">
 									<select class="input-select">
 										<option value="0">Todas las categorias</option>
-										<option value="1">Category 01</option>
-										<option value="2">Category 02</option>
-										<option value="3">Category 01</option>
-										<option value="4">Category 02</option>
-										<option value="5">Category 01</option>
-										<option value="6">Category 02</option>
-										<option value="7">Category 01</option>
-										<option value="8">Category 02</option>
+										<option value="1">Antiguedades</option>
+										<option value="2">Arte</option>
+										<option value="3">Artesania</option>
+										<option value="4">Articulos de coleccion</option>
+										<option value="5">Articulos deportivos</option>
+										<option value="6">Articulos para mascotas</option>
+										<option value="7">Bebes</option>
+										<option value="9">Belleza y salud</option>
+										<option value="10">Bienes raices</option>
+										<option value="11">Camaras y fotografia</option>
+										<option value="12">Celulares y accesorios</option>
+										<option value="13">Ceramica y cristal</option>
+										<option value="14">Computadoras, tablets y redes</option>
+										<option value="15">DVD y peliculas</option>
+										<option value="16">eBays Motors</option>
+										<option value="17">Entradas, boletos</option>
+										<option value="18">Entretenimiento</option>
+										<option value="19">Equipo y maquinaria Industrial</option>
+										<option value="20">Hogar y Jardin</option>
+										<option value="21">Instrumentos y equipos musicales</option>
+										<option value="22">Joyas y relojes</option>
+										<option value="23">Juguetes y pasatiempos</option>
+										<option value="24">Libros</option>
+										<option value="25">Memorabilia deportiva, cromos y articulos para aficionados</option>
+										<option value="26">Monedas y billetes</option>
+										<option value="27">Muñecas y osos</option>
+										<option value="28">Musica</option>
+										<option value="29">Ropa, zapatos y accesorios</option>
+										<option value="30">Sellos</option>
+										<option value="31">Servicios especiales</option>
+										<option value="32">Tarjetas de regalos y cupones</option>
+										<option value="33">Tecnologia</option>
+										<option value="34">Viajes</option>
+										<option value="35">Videojuegos y consolas</option>
+										<option value="36">Todo lo demas</option>
 									</select>
-									<button class="search-btn">Buscar</button>
+									<button id="btn-buscar" class="search-btn" type="button">Buscar</button>
 									
 								</form>
 							</div>
@@ -183,8 +215,6 @@
 		</nav>
 		<!-- /NAVIGATION -->
 	
-		<!--SECTION (imagenes sin slider, en cortar.html esta la parte que corresponde)-->
-		<!-- /SECTION -->
 		<!-- SECTION -->	
 		<div class="section">
 			<!-- container -->
@@ -206,11 +236,9 @@
 												<h5>Los ultimos lanzamientos en tecnologia</h5>
 											</div>	
 											<div class="product-body">
-												<h3 class="product-name"><a style="background:#93C9FF" class="btn btn-primary" href="#">compra ya <i class="fas fa-arrow-right"></i></a></h3>
+												<h3 class="product-name"><a style="background:#93C9FF" class="btn btn-primary" href="Formularios-ebay/informacion-de-contacto.html">compra ya <i class="fas fa-arrow-right"></i></a></h3>
 											</div>
-											<!--<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-											</div>-->
+											
 										</div>
 										<!-- /product -->
 										<!-- product -->
@@ -220,11 +248,9 @@
 											</div>
 											<div class="product-body">
 											
-												<h3 class="product-name"><a href="#">Celulares y accesorios</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-1.php">Celulares y accesorios</a></h3>
 											</div>
-											<!--<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-											</div>-->
+											
 										</div>
 										<!-- /product -->
 
@@ -234,11 +260,9 @@
 												<img src="./img/reloj.webp" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">Smart watches</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-5.php">Smart watches</a></h3>
 											</div>
-											<!--<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> add to cart</button>
-											</div>-->
+											
 										</div>
 										<!-- /product -->
 
@@ -248,7 +272,7 @@
 												<img src="./img/s-l300.webp" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">Drones</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-8.php">Drones</a></h3>
 											</div>
 										</div>
 										<!-- /product -->
@@ -258,7 +282,7 @@
 												<img src="./img/audifonos.jpg" alt="">
 											</div>
 											<div style="background:#FAD8F0" class="product-body">
-												<h3 class="product-name"><a style="background:#FAD8F0" class="btn btn-primary" href="#">Aprovèchalos <i class="fas fa-arrow-right"></i></a></h3>
+												<h3 class="product-name"><a style="background:#FAD8F0" class="btn btn-primary" href="Formularios-ebay/informacion-de-contacto.html">Aprovèchalos <i class="fas fa-arrow-right"></i></a></h3>
 											</div>
 										</div>
 										<!-- /product -->
@@ -289,7 +313,7 @@
 						<img id="tamaño" src="./img/shop1.webp" ></a>
 					</div>
 					<div style="padding-left: 37px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/tecnologia.php" target="_blank">
 							Tecnologìa
 							<br>
 						</a>
@@ -301,7 +325,7 @@
 						<img id="tamaño" src="./img/shop2.webp" ></a>
 					</div>
 					<div style="padding-left: 50px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/Articulo-8.php" target="_blank">
 							Moda
 							<br>
 						</a>
@@ -313,7 +337,7 @@
 						<img id="tamaño" src="./img/shop3.webp" ></a>
 					</div>
 					<div style="padding-left: 5px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/Articulo-2.php" target="_blank">
 							Celulares y accesorios
 							<br>
 						</a>
@@ -325,7 +349,7 @@
 						<img id="tamaño" src="./img/shop4.webp" ></a>
 					</div>
 					<div style="padding-left: 45px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/Articulo-5.php" target="_blank">
 							Relojes
 							<br>
 						</a>
@@ -337,7 +361,7 @@
 						<img id="tamaño" src="./img/shop5.webp" ></a>
 					</div>
 					<div style="padding-left: 25px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/Articulo-14.php" target="_blank">
 							Belleza y salud
 							<br>
 						</a>
@@ -349,7 +373,7 @@
 						<img id="tamaño" src="./img/shop6.webp" ></a><br>
 					</div>
 					<div style="padding-left: 15px">
-						<a style="color:black  !important; font-size: 12px;" href="img/pagoLabIII2018.jpg" target="_blank">
+						<a style="color:black  !important; font-size: 12px;" href="Categoria-articulos-ebay/Articulo-6.php" target="_blank">
 								Partes y accesorios
 								<br>
 						</a>
@@ -391,7 +415,7 @@
 												<img src="./img/img1.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-4.php">L.249.50</a></h3>
 												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
 											</div>
 										</div>
@@ -402,7 +426,7 @@
 												<img src="./img/img2.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-2.php">L.249.50</a></h3>
 												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
 											</div>
 										</div>
@@ -416,8 +440,8 @@
 												</div>-->
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-18.php">L.749.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.1290.00</del>42% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -428,8 +452,8 @@
 												<img src="./img/img4.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-11.php">L.479.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.590.00</del>20% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -440,8 +464,8 @@
 												<img src="./img/img5.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-17.php">L.2090.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.2590.00</del>20% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -452,8 +476,8 @@
 												<img src="./img/img6.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-14.php">L.490.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.780.00</del>32% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -464,8 +488,8 @@
 												<img src="./img/img7.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-8.php">L.1249.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.1790.00</del>20% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -476,8 +500,8 @@
 												<img src="./img/img8.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-3.php">L.9249.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.10990.00</del>15% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -487,8 +511,8 @@
 												<img src="./img/img9.jpg" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
-												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-5.php">L.1249.50</a></h3>
+												<h4 class="product-price"> <del class="product-old-price">L.1520.00</del>15% DE DESCUENTO</h4>
 											</div>
 										</div>
 										<!-- /product -->
@@ -498,7 +522,7 @@
 												<img src="./img/product03.png" alt="">
 											</div>
 											<div class="product-body">
-												<h3 class="product-name"><a href="#">L.249.50</a></h3>
+												<h3 class="product-name"><a href="Categoria-articulos-ebay/Articulo-4.php">L.249.50</a></h3>
 												<h4 class="product-price"> <del class="product-old-price">L.990.00</del>72% DE DESCUENTO</h4>
 											</div>
 										</div>
@@ -526,7 +550,7 @@
             <div class="div-ti">
                 <div class="div-ti1"><h2><a style="color:blue; font:bold; ">Todo para el camino</a></div></h2>
                 <div class="div-ti2">Està pasando aqui </div>
-                <div class="div-ti3"><a class="btn btn-primary" href="#">acelera ahora <i class="fas fa-arrow-right"></i></a></div>
+                <div class="div-ti3"><a class="btn btn-primary" href="Categoria-articulos-ebay/Articulo-15.php">acelera ahora <i class="fas fa-arrow-right"></i></a></div>
 						</div>
           </div>
 				</div>
@@ -536,7 +560,7 @@
 								<a><img src="./img/rin3.jpg" alt=""></a>
 							</div>
 							<div class="descripcion">
-									<div class="div-ti4"><a>En el show</a></div>
+									<div class="div-ti4"><a href="Categoria-articulos-ebay/Articulo-15.php">En el show</a></div>
 							</div>
 					</div>
 				</div>
@@ -546,7 +570,7 @@
 									<a><img src="./img/rin1.jpg" alt=""></a>
 							</div>
 							<div class="descripcion">
-									<div class="div-ti4"><a>Sobre la pista</a></div>
+									<div class="div-ti4"><a href="Categoria-articulos-ebay/Articulo-15.php">Sobre la pista</a></div>
 							</div>
 					</div>
 				</div>
@@ -556,7 +580,7 @@
 									<img src="./img/rin2.jpg" alt="">
 							</div>
 							<div class="descripcion">
-									<div class="div-ti4"><a>Fuera del asfalto</a></div>
+									<div class="div-ti4"><a href="Categoria-articulos-ebay/Articulo-8.php">Fuera del asfalto</a></div>
 							</div>
 					</div>
 				</div>
@@ -579,7 +603,7 @@
 					</div>
 					<div class="col-lg-4 col-md-4 col-xs-6 col-sm-6">
 						<div id="contenido3">
-							<div  class="div-b1"><a style="background:#1DCBCA" class="btn btn-primary" href="#">Leer Màs <i class="fas fa-arrow-right"></i></a></div>
+							<div  class="div-b1"><a style="background:#1DCBCA" class="btn btn-primary" href="Categoria-articulos-ebay/tecnologia.php">Leer Màs <i class="fas fa-arrow-right"></i></a></div>
 						</div>
 					</div>
 				</div>
@@ -730,6 +754,8 @@
 		<script src="js/nouislider.min.js"></script>
 		<script src="js/jquery.zoom.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/controlador4.js"></script>
 
 	</body>
 </html>
