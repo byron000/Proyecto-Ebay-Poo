@@ -477,7 +477,7 @@
 			<span class="clipped">Ir a la diapositiva anterior - Ofertas por tiempo limitado</span></button>
 	<div class="x-carousel__body no-scroll" id="w5-xCarousel-x-carousel-items">
 		<ul class="">
-			<li aria-hidden="false">
+		<li aria-hidden="false">
 					<a class="b-tile" href="Articulo-1.php" _sp="p2489527.m4329.l8656">
 				<div class="b-tile__imgwrap">
 					<div class="b-tile__img">
@@ -536,7 +536,7 @@
 	<span class="strikethrough">L 4&nbsp;165.60</span></span> | <strong class="bold">41 % DE DESCUENTO</strong></div>
 			</div>
 	</a></li>
-	<li aria-hidden="true">
+		<li aria-hidden="true">
 		<a class="b-tile" href="4" _sp="p2489527.m4329.l8656" tabindex="-1">
 		<div class="b-tile__imgwrap">
 			<div class="b-tile__img">
